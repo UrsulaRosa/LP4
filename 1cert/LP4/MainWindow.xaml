@@ -1,0 +1,28 @@
+﻿<Window x:Class="LP4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LP4"
+        mc:Ignorable="d"
+        Title="Treinos" Height="350" Width="525">
+    <Grid Background="#FF56F70B">
+        <Label x:Name="lbltreino" Content="Treino:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="19,5,0,0" Width="52" FontFamily="Segoe Marker" FontSize="14"/>
+        <Label x:Name="lblnivel" Content="Nível:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="19,61,0,0" FontFamily="Segoe Marker" FontSize="14"/>
+        <Label x:Name="lblmin" Content="Minutos:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="19,31,0,0" Height="23" Width="66" FontFamily="Segoe Marker" FontSize="14"/>
+        <Label x:Name="lblintensidade" Content="Intensidade:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="19,92,0,0" FontFamily="Segoe Marker" FontSize="14"/>
+        <TextBox x:Name="txtintensidade" HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="100,96,0,0"/>
+        <TextBox x:Name="txtnivel" HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="100,65,0,0"/>
+        <TextBox x:Name="txtmin" HorizontalAlignment="Left" Height="19" TextWrapping="Wrap" VerticalAlignment="Top" Width="54" Margin="100,35,0,0"/>
+        <TextBox x:Name="txttreino" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" Margin="100,5,0,0"/>
+        <Button x:Name="btnsalvar" Content="Cadastrar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="294,138,0,0" FontFamily="Segoe Marker" FontSize="16" Background="LightGray" BorderBrush="#FF6E6E6C" Foreground="#FF040101" Click="btnsalvar_Click"/>
+        <Button x:Name="btndeletar" Content="Deletar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="245,259,0,0" FontFamily="Segoe Marker" FontSize="16" Background="#FFD4D2D2" BorderBrush="#FF0C0A0A" Click="btndeletar_Click"/>
+        <Button x:Name="btnalterar" Content="Alterar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="145,259,0,0" Background="#FFD6CFCF" BorderBrush="#FF3E2929" FontSize="16" FontFamily="Segoe Marker" Click="btnalterar_Click"/>
+        <Button x:Name="btnconsultar" Content="Consultar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="44,259,0,0" BorderBrush="#FF343333" Background="#FFD3D1D1" FontFamily="Segoe Marker" FontSize="16" Click="btnconsultar_Click"/>
+        <Label x:Name="lblIntensidadeT" Content="Baixa/ Moderada/ Alta" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="225,96,0,0" FontFamily="Segoe Marker" FontSize="14"/>
+        <Label x:Name="lblNivelT" Content="Iniciante/ Intermediário/ Avançado" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="225,65,0,0" FontFamily="Segoe Marker" FontSize="14"/>
+        <Label x:Name="lblMin" Content="Min." HorizontalAlignment="Left" VerticalAlignment="Top" Margin="159,34,0,0" FontFamily="Segoe Marker" FontSize="14"/>
+        <Label x:Name="lblJaCadastrado" Content="Já possui treinos cadastrados?" HorizontalAlignment="Left" Margin="44,198,0,0" VerticalAlignment="Top" FontFamily="Segoe Marker" FontSize="20"/>
+
+    </Grid>
+</Window>
