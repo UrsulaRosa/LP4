@@ -1,0 +1,11 @@
+﻿<Window x:Class="Cronometro.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="btniniciar" Content="Iniciar/Continuar" HorizontalAlignment="Left" Margin="59,200,0,0" VerticalAlignment="Top" Width="111" Click="btniniciar_Click" Height="32"/>
+        <TextBlock x:Name="txtblock" HorizontalAlignment="Left" Height="134" Margin="70,32,0,0" TextWrapping="Wrap" Text="00:00:00" VerticalAlignment="Top" Width="329" FontSize="80"/>
+        <Button x:Name="btnparar" Content="Parar" HorizontalAlignment="Left" Margin="188,200,0,0" VerticalAlignment="Top" Width="92" Click="btnparar_Click" Height="32" IsEnabled="False"/>
+        <Button x:Name="btnzerar" Content="Zerar" HorizontalAlignment="Left" Margin="307,200,0,0" VerticalAlignment="Top" Width="92" Click="btnzerar_Click" Height="32" IsEnabled="False"/>
+    </Grid>
+</Window>
